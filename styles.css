@@ -1,0 +1,70 @@
+h1{
+    color:brown;
+    background-color:aqua ;
+    font-size:96px;
+    font-weight: 900;
+
+}
+
+.testes{
+    color:black;
+
+}
+
+
+
+table,td,th {
+    border: 1px solid black;
+}
+
+
+
+.boxes{
+   /* height: calc(100vh - 14rem);*/
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    order: 7;
+}
+
+.box{
+    min-height: 10rem;
+    min-width: 20rem;
+    padding: 1.5rem;
+    border: 10px solid red;
+    border-radius: 0.4rem;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 4rem;
+    display:inline-block;
+    
+}
+
+
+table tr:first-child{
+
+    background-color: blue;
+    color: white;
+}
+
+
+.teste{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url('downlovad.jpg');
+    background-size: contain;
+}
+
+table tr:nth-child(2n+3){
+
+    background-color: red;
+}
+
+.teste{
+    height: 90px;
+    width: 60px;
+    border: 1px solid red;
+    display: inline-block;
+}
